@@ -1,0 +1,102 @@
+.photo{
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+}
+
+.block{
+    box-shadow: 7px 7px 7px 7px rgb(5, 117, 71);
+    width: 400px;
+    height: 370px;
+    margin: 50px;
+    display: inline-block;
+    border: 1px solid blue;
+    
+}
+
+.name{
+    margin: 10px;
+    text-decoration: none;background-color: #edf6ff; 
+    color: #1b4268; 
+    font: bold 0.8em Arial, Tahoma, sans-serif; 
+    border: 1px solid #d4dde5; 
+    padding: 0.5rem 1.5rem; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    border-radius: 20px; 
+    transition: 0.5s; 
+}
+
+.photo_1{
+    width: 550px;
+    height: 500px;
+    margin: 40px;
+}
+
+.block_1{
+    box-shadow: 7px 7px 7px 7px rgb(5, 117, 71);
+    width: 690px;
+    height: auto;
+    margin: 100px 600px;
+    display: inline-block;
+    border: 1px solid blue;
+}
+
+.recept{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header {
+    display: flex;             
+    align-items: center;       
+    justify-content: center;     
+}
+
+.logo {
+    max-width: 150px;           
+    margin-right: 20px;        
+}
+
+nav ul {
+    list-style: none;          
+    padding: 0;                
+    margin: 0;                  
+}
+
+nav ul li {
+    display: inline-block;       
+}
+
+a{
+    font-size: 30px;
+    margin: 10px;
+}
